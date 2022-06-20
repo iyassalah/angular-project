@@ -1,0 +1,18 @@
+.left-list {
+    width:14rem;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin: auto;
+
+}
+
+li {
+    list-style: none;
+    margin: .5rem;
+}
+
+a {
+    text-decoration: none;
+    text-wrap: nowrap;
+}
