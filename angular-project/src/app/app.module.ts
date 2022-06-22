@@ -25,16 +25,13 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
     RecipeDetailComponent,
     RecipeItemComponent,
     ShoppingListComponent,
-    ShoppingEditComponent, 
-    DropdownDirective, RecipeStartComponent, RecipeEditComponent,
+    ShoppingEditComponent,
+    DropdownDirective,
+    RecipeStartComponent,
+    RecipeEditComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule, 
-    FormsModule,
-    AppRoutingModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, AppRoutingModule],
   providers: [ShoppingListService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
